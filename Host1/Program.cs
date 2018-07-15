@@ -48,6 +48,8 @@ class Program
 
     static void InitSilo(string[] args)
     {
+        //http://dotnet.github.io/orleans/1.5/Tutorials/Running-in-a-Stand-alone-Silo.html
+
         siloHost = new SiloHost(System.Net.Dns.GetHostName());
         // The Cluster config is quirky and weird to configure in code, so we're going to use a config file
         siloHost.ConfigFileName = "OrleansConfiguration.xml";

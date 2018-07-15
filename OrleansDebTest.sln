@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansDebTest", "OrleansDebTest\OrleansDebTest.csproj", "{BF46DAFE-A3C4-4CD3-8894-15D79F6A3259}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MinToturial", "MinToturial", "{D5C1D95C-553B-4C74-98EB-B9A627F61EA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebTest.Interface", "DebTest.Interface\DebTest.Interface.csproj", "{5ED9D099-3F88-4C67-838E-02F5C9296A5C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainInterfaces", "GrainInterfaces\GrainInterfaces.csproj", "{BCC8E857-E965-4459-8914-97DDB14905B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebTest.Grains", "DebTest.Grains\DebTest.Grains.csproj", "{F6C2CC8B-D279-4949-AAF3-517C8713F1EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainCollection", "GrainCollection\GrainCollection.csproj", "{563D3C9D-0E24-4089-84A5-1C1157F93BC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host1", "Host1\Host1.csproj", "{C47EEF0A-6022-4559-B573-31A8DBDB1AD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,21 +17,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BF46DAFE-A3C4-4CD3-8894-15D79F6A3259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF46DAFE-A3C4-4CD3-8894-15D79F6A3259}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF46DAFE-A3C4-4CD3-8894-15D79F6A3259}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF46DAFE-A3C4-4CD3-8894-15D79F6A3259}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5ED9D099-3F88-4C67-838E-02F5C9296A5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5ED9D099-3F88-4C67-838E-02F5C9296A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5ED9D099-3F88-4C67-838E-02F5C9296A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5ED9D099-3F88-4C67-838E-02F5C9296A5C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F6C2CC8B-D279-4949-AAF3-517C8713F1EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6C2CC8B-D279-4949-AAF3-517C8713F1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6C2CC8B-D279-4949-AAF3-517C8713F1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6C2CC8B-D279-4949-AAF3-517C8713F1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC8E857-E965-4459-8914-97DDB14905B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC8E857-E965-4459-8914-97DDB14905B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC8E857-E965-4459-8914-97DDB14905B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC8E857-E965-4459-8914-97DDB14905B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{563D3C9D-0E24-4089-84A5-1C1157F93BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563D3C9D-0E24-4089-84A5-1C1157F93BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563D3C9D-0E24-4089-84A5-1C1157F93BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563D3C9D-0E24-4089-84A5-1C1157F93BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C47EEF0A-6022-4559-B573-31A8DBDB1AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C47EEF0A-6022-4559-B573-31A8DBDB1AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C47EEF0A-6022-4559-B573-31A8DBDB1AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C47EEF0A-6022-4559-B573-31A8DBDB1AD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCC8E857-E965-4459-8914-97DDB14905B3} = {D5C1D95C-553B-4C74-98EB-B9A627F61EA8}
+		{563D3C9D-0E24-4089-84A5-1C1157F93BC3} = {D5C1D95C-553B-4C74-98EB-B9A627F61EA8}
+		{C47EEF0A-6022-4559-B573-31A8DBDB1AD2} = {D5C1D95C-553B-4C74-98EB-B9A627F61EA8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CBBC9D28-FEFC-4E03-A2AC-2893D619950C}
